@@ -31,10 +31,13 @@ class Solution{
             } else {
                 num --;
             }
-
             counter ++;
         }
-
         return counter ;;
     }
 }
+
+
+// Time Complexity: O(logn) -- 2*logn
+// Space Complexity: O(1)
+
