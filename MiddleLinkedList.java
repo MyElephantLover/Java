@@ -23,9 +23,7 @@ class Solution{
             middle = middle.next;
             end = end.next.next;
         }
-
         return middle;
-
     }
 
     // Time Complexity: O(n);
