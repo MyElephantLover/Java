@@ -26,8 +26,9 @@ class Solution{
                 minEven = Math.min(minEven, value);
             }
         }
-
         return maxOdd - minEven;
 
+        // Time Complexity: O(n) where n is the size of the string s
+        // Space Complexity: O(sigma) where sigma dictates the size of the character set
     }
 }
