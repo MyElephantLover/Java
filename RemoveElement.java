@@ -1,5 +1,6 @@
 class Solution{
    public int RemoveElement(int [] nums, int val){
+    // The core idea is we continue reading through the array, but only writes when it qualifies
     // use two pointers, reader and writer pointer, if reader pointer at the position where the value is equal to the writer pointer
     // the reader pointer continue moving to the next one, while the writer pointer stops writing to nums at the writer pointer
 
