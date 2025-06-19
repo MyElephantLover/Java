@@ -30,7 +30,12 @@ class solution{
         }
         // Java arrays cannot be resized as C++ vectors
         // so we return the size directly
-        
+
         return writer;
+
+        // Time Complexity: O(n^2), since the deletion takes O(n). In the worst case that all elements are the same, each unwanted duplicate takes
+        // n-2 deletion. Hence, the total Time Complexity would be O(n) + O(n^2) = O(n^2)
+
+        // Space Complexity: O(1)
     }
 }
