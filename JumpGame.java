@@ -34,11 +34,14 @@ public class JumpGame{
     public boolean canJump(int[] nums){
         memo = new Index[nums.length];
         for (int i = 0; i < memo.length; i ++){
-            memo[i] = Index.Unknown;
+            memo[i] = Index.Unknown; // by default, each index is Unknown, only the last index is Good because it can reach itself
         }
         memo[memo.length - 1] = Index.Good;
         return canJump(0, nums);
     }
+
+    // Time Complexity: O(2^n) because each index is Good or Bad and the nums.length is n
+    // Space Complexity: O(n)
 
 }
 
