@@ -4,7 +4,7 @@ enum Index{
     Unknown;
 }
 
-public class Solution{
+public class JumpGame{
 
 // This is a dynamic programming question, where we use top-down recursive programming
 // we are looking at each index to see if it's "Good", "Bad" or "Unknown" where "Good" means it can reach to the last index in the furthese step
