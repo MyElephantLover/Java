@@ -4,8 +4,8 @@ import java.util.Arrays;
 class Solution {
    public int hindex(int[] citations){
     // sorting the array
-
     Arrays.sort(citations);
+    
     // finding h-index by linear search
     int i = 0;
 
