@@ -1,5 +1,8 @@
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Random;
 
 public class InsertDeleteGetRandom {
 
@@ -38,6 +41,6 @@ public class InsertDeleteGetRandom {
     }
 
     // Time Complexity: O(n) which insert and delete both takes an average of O(1). In the worst case, the operations exceed
-    // the current allocated capatity in the HashMap / Array, and need to take extra storage for reallocation
+    // the current allocated capatity in the HashMap / Array, and invokes space reallocation
     // Space Complexity: O(n) to store N elements
 }
