@@ -55,4 +55,4 @@ class Solution{
     // symbol that fits into the remainder, and so on until the remainder is 0
 
     // Time Complexity: O(1)
-    // Space Complexity: O(n) the size of the memory does not change with the size of the input integer, so remain constant
+    // Space Complexity: O(1) the size of the memory does not change with the size of the input integer, so remain constant
