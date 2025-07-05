@@ -3,7 +3,7 @@ import java.util.Collections;
 
 class Solution{
     public String reverseWords(String s){
-        // built-int split and reverse
+        // built-in split and reverse
 
         // remove leading spaces
         s = s.trim();
