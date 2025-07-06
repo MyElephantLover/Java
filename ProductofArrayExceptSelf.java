@@ -18,7 +18,7 @@ class Solution{
         for (int i = 1; i < length; i ++){
             L[i] = L[i - 1] * nums[i - 1];
 
-            // L[i - 1] already contains the product of all the elements to the index of i - 1.
+            // L[i - 1] already contains the product of all the elements to the left of the index i - 1.
             // so for  L[i], we only need to multiply L[i - 1] by nums[i - 1]
         }
 
