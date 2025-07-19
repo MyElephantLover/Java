@@ -41,7 +41,7 @@ class Solution{
         int maxWidth
     ){
         int baseLength = -1;
-        for (String word : line){ // this is for each loop that iterate over each element in the line list
+        for (String word : line){ // this is for-each loop that iterate over each element in the line list
             baseLength += word.length() + 1;
         }
 
