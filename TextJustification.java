@@ -46,7 +46,7 @@ class Solution{
         }
 
         int extraSpaces = maxWidth - baseLength;
-        if (line.size() == 1 || i == words.length){
+        if (line.size() == 1 || i == words.length){ // if current line has one word or is the last line
             return String.join(" ") + " ".repeat(extraSpaces);
         }
 
