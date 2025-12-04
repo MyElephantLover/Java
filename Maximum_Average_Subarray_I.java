@@ -28,5 +28,7 @@ class Solution {
 // elements of sum to determin the required result
 
 // Space Complexity: O(n) we make use of sum array of length n 
-// to store the cumulative sum
+// to store the cumulative sum of the elements in the array
+
+
 
