@@ -9,8 +9,9 @@ class Solution {
         
         sum[0] = nums[0]; // sum is a prefix sum array which must start storing the first element 
         
+        // loop through the array nums to store the elements in the prefix sum array
         for (int i = 1; i < nums.length; i ++){
-            sum[i] = sum[i - 1] + nums[i]; // the sum to the previous index plsu nums[i]
+            sum[i] = sum[i - 1] + nums[i]; // the sum to the previous index plus nums[i]
         }
         
         double res = sum[k - 1] * 1.0 / k;
